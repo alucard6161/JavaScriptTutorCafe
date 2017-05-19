@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+<head>
+<title>Formato Fijo</title>
+<meta charset= "utf-8">
+<style>
+/* Paleta de Colores CSS 
+Contenido: #f2b705
+Encabezado: #f29f05
+Pie de pagina: #d97904
+Columna Izquierda: #733702
+Columna derecha:  #401801
+*/
+
+/*************************************
+Principios de Neutralidad
+**************************************/
+
+h1, h2, h3, h4, h5, h6, p, html, body{
+	margin:0;
+	padding:0;
+	text-align:justify;
+}
+html, body{
+	background-color:#fff;
+}
+
+body{
+	
+	background-image:url(imagenes/2.jpg);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:100%;
+	height:800px;
+}
+
+img{
+	width:200px;
+	height:110px;	
+	}
+
+p {
+	padding:5px;
+	font-size:1.2em;
+	}
+
+h1{ 
+	padding:5px; 
+	text-align:center;
+	letter-spacing:.8em;
+	}
+
+	
+h2{ 
+	padding-top:0px; 
+	text-align:center;
+	letter-spacing:.7em;
+	}
+
+h3{  
+	text-align:center;
+	font-size:.6em;
+	}
+
+	
+
+/*************************************
+Estructura
+**************************************/
+
+#wrapper{ 
+	width:960px;  
+	height:660px; 
+	background-color:#ff0; 
+	margin:0 auto;}
+
+#encabezado{
+	height:80px; 
+	background-color:#f29f05;
+	
+	}
+	
+#contenido{
+	height:560px; 
+	background-color:#f2b705;
+	
+	}
+	
+#pie_pagina{
+	height:20px; 
+	background-color: #d97904;
+	
+	}
+
+#izquierda{
+	/*background-color: #733702;*/
+	float:left;
+	width:512px;
+	height:560px;
+	margin-bottom:0;
+	margin-right:16px;
+	margin-top:0;
+	margin-left:32px;
+}	
+
+#derecha{
+	/*background-color: #733702;*/
+	float:right;
+	width:352px;
+	height:560px;
+	margin-bottom:0;
+	margin-right:32px;
+	margin-top:0;
+	margin-left:16px;
+}
+	
+/*************************************
+Clases
+**************************************/
+
+.izquierda{float:left; margin:10px solid black; padding:5px; border:1px solid black;}
+.derecha{float:right; margin:10px; padding:5px; border:1px solid black;}
+
+
+
+</style>
+</head>
+<body>
+
+<div id="wrapper">
+	<div id="encabezado">
+		<H1>POSICIONAMIENTO FIJO</H1>
+		<H2>PRUEBA ACEPTADA</H2>
+	
+	
+	
+	</div>
+	<div id="contenido">
+		<div id="izquierda">
+		
+				<H1>PARRAFO 1</H1>
+				<P><img src="imagenes/1.jpg" title="Imagen 1" class="izquierda"/></P>
+				<P> One Piece (ワンピース Wan Pīsu?) es un manga japonés creado por Eiichiro Oda llevado a versión anime por Kōnosuke Uda. Comenzó a publicarse en Weekly Shōnen Jump el 19 de Julio de 1997; Shueisha publica los capítulos en volúmenes; el primero publicado el 24 de diciembre de 1999 y el 80º publicado el 28 de diciembre de 2015.</P>
+				<H2>PARRAFO 2</H2>
+				<P> La revista Shōnen Jump de Shūeisha publica el manga desde 1997 y lleva editados más de 831 capítulos recopilados en 82 volúmenes. Por otra parte, Toei Animation realiza el anime y se transmite en Fuji TV desde agosto de 1998 y se han superado los 700 episodios, se continúa emitiendo. Larp editores se encarga de su publicación en Argentina, Planeta DeAgostini se encarga de la publicación en España y en México fue publicado por Editorial Toukan y más tarde por Panini Comics.1</P>
+		
+		</div>
+		<div id="derecha">
+		
+				<H1>PARRAFO I</H1>
+				<P><img src="imagenes/2.jpg" title="Imagen 1" class="izquierda"/></P>
+				<P> One Piece (ワンピース Wan Pīsu?) es un manga japonés creado por Eiichiro Oda llevado a versión anime por Kōnosuke Uda. Comenzó a publicarse en Weekly Shōnen Jump el 19 de Julio de 1997; Shueisha publica los capítulos en volúmenes; el primero publicado el 24 de diciembre de 1999 y el 80º publicado el 28 de diciembre de 2015.</P>
+				
+		</div>
+	</div>
+	<div id="pie_pagina"><H3>&copy Todos los derechos reservados.</H3></div>
+</div>
+
+
+
+
+</body>
+</html>
+
